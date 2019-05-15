@@ -1,0 +1,188 @@
+.main-content {
+    height: 82%;
+    width: 96%;
+    padding: 1px 1px 1px 32px;
+}
+
+label.manageB {
+    background: #e9c50b;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    margin-top: 5px;
+    position: absolute;
+    width: 136px;
+}
+
+label.manageBSelectDs2 {
+    margin-top: 167px;
+}
+
+.tab {
+    position: absolute;
+    top: 113px;
+}
+
+
+.labelana2{
+    background: #dafad0;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 208px;
+}
+
+.divLineAnalysis {
+    position: relative;
+    top: 84px;
+    background: black;
+}
+
+
+.labelana{
+    background: #dafad0;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 208px;
+}
+
+label.manageBSelectDs {
+    margin-top: 56px;
+}
+
+.divLineAnalysis1{
+    position: relative;
+    top: 195px;
+    background: black;
+}
+
+.manageBSelectDs3{
+    margin-top: 97px;
+    width: 207px;
+}
+
+.labelana1{
+    background: #eddfbe;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 208px;
+    border-radius: 25px;
+}
+
+
+.labelana4{
+    background: rgb(237, 208, 208);
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 208px;
+    border-radius: 25px;
+}
+
+.dropdownAna3{
+    position: absolute;
+    top: 15vw;
+    left: 16vw;
+}
+
+.analyzebtn{
+    top: 89px;
+    left: 605px;
+}
+
+.analyzebtn1{
+    top: 89px;
+    left: 645px;
+}
+
+.labelana3{
+    background: #cffcff;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 272px;
+    top: 163px;
+    left: 310px;
+}
+
+.tab1{
+    position: absolute;
+    top: 314px;
+}
+
+.container.ng-star-inserted {
+    margin-top: 6px;
+}
+
+label.settingLabel1 {
+    background: #eddfbe;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 208px;
+    border-radius: 25px;
+}
+
+label.settingLabel2 {
+    background: #cffcff;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 272px;
+    left: 281px;
+}
+
+button.settingBtnn1 {
+    left: 605px;
+}
+
+
+button.settingBtnn2 {
+    left: 645px;
+}
+
+
+.browsepopup {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    background: #d5d5d5;
+    width: 393px;
+    height: 212px;
+    padding: 1px 13px 1px 25px;
+}
+
+.containerInputbox {
+    position: absolute;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.addBtnset{
+    top: 9px;
+    left: 202px;
+    margin-left: 9px;
+}
+
+
+.dispLow {
+    position: absolute;
+    top: 102px;
+    left: 277px;
+}
+.valulab {
+    background: darkgrey;
+    position: absolute;
+    width: 52px;
+    text-align: center;
+}
+
+label.heightlabel.keylabell {
+    position: absolute;
+    left: 178px;
+}
+
+label.heighval.valulab {
+    left: 229px;
+}
+
+label.lowval.valulab {
+    left: 47px;
+}

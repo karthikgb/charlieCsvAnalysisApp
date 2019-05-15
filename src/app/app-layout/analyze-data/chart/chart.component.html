@@ -1,0 +1,19 @@
+<label class="manageBSelectDs2 labelana2">Chart Analysis:</label>
+
+<div class="divLineAnalysis">
+  <mat-divider></mat-divider>
+</div>
+<div>
+    <label class="manageBSelectDs3 labelana">Select Dataset:</label>
+    <div class="dropdownAna3">
+      <mat-form-field>
+        <mat-select [(value)]="fileOption">
+          <mat-option value="option1">Dataset1</mat-option>
+          <mat-option value="option2">file2.csv</mat-option>
+          <mat-option value="option3">file3.csv</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <button mat-raised-button class="analyzebtn" (click)="callRun()">Run</button>
+  <div id="echartMain2"></div>
+</div>

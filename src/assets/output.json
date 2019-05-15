@@ -1,0 +1,825 @@
+{
+    "dependent-var": "AA-C-001", 
+    "pca-runtime": 1.59, 
+    "pca": {
+        "1": {
+            "variance": 5.9328, 
+            "vars": [
+                {
+                    "v_variance": 57.1734, 
+                    "name": "AA-R-008"
+                }, 
+                {
+                    "v_variance": 41.02, 
+                    "name": "AA-R-007"
+                }, 
+                {
+                    "v_variance": 28.2371, 
+                    "name": "AA-R-001"
+                }, 
+                {
+                    "v_variance": 24.0655, 
+                    "name": "AA-R-006"
+                }, 
+                {
+                    "v_variance": 22.8222, 
+                    "name": "AA-R-009"
+                }, 
+                {
+                    "v_variance": 18.2488, 
+                    "name": "AA-R-010"
+                }, 
+                {
+                    "v_variance": 3.3721, 
+                    "name": "AA-R-005"
+                }, 
+                {
+                    "v_variance": 1.5092, 
+                    "name": "AA-C-009"
+                }, 
+                {
+                    "v_variance": 1.3887, 
+                    "name": "AA-C-008"
+                }, 
+                {
+                    "v_variance": 1.0023, 
+                    "name": "AA-C-004"
+                }
+            ]
+        }, 
+        "0": {
+            "variance": 43.5716, 
+            "vars": [
+                {
+                    "v_variance": 2.4579, 
+                    "name": "AA-R-006"
+                }, 
+                {
+                    "v_variance": 0.9325, 
+                    "name": "AA-R-005"
+                }, 
+                {
+                    "v_variance": 0.8662, 
+                    "name": "AA-R-001"
+                }, 
+                {
+                    "v_variance": 0.7106, 
+                    "name": "AA-R-009"
+                }, 
+                {
+                    "v_variance": 0.6667, 
+                    "name": "AA-R-008"
+                }, 
+                {
+                    "v_variance": 0.6077, 
+                    "name": "AA-R-002"
+                }, 
+                {
+                    "v_variance": -0.0127, 
+                    "name": "AA-R-004"
+                }, 
+                {
+                    "v_variance": -1.066, 
+                    "name": "AA-R-010"
+                }, 
+                {
+                    "v_variance": -1.6597, 
+                    "name": "AA-R-007"
+                }, 
+                {
+                    "v_variance": -1.7653, 
+                    "name": "AA-R-003"
+                }
+            ]
+        }, 
+        "3": {
+            "variance": 5.6284, 
+            "vars": [
+                {
+                    "v_variance": 55.957, 
+                    "name": "AA-R-005"
+                }, 
+                {
+                    "v_variance": 34.7669, 
+                    "name": "AA-R-007"
+                }, 
+                {
+                    "v_variance": 31.9426, 
+                    "name": "AA-R-010"
+                }, 
+                {
+                    "v_variance": 25.7225, 
+                    "name": "AA-R-003"
+                }, 
+                {
+                    "v_variance": 17.3968, 
+                    "name": "AA-R-004"
+                }, 
+                {
+                    "v_variance": 1.3345, 
+                    "name": "AA-C-002"
+                }, 
+                {
+                    "v_variance": -0.0633, 
+                    "name": "AA-C-006"
+                }, 
+                {
+                    "v_variance": -0.2624, 
+                    "name": "AA-C-009"
+                }, 
+                {
+                    "v_variance": -0.4069, 
+                    "name": "AA-R-008"
+                }, 
+                {
+                    "v_variance": -0.5471, 
+                    "name": "AA-C-005"
+                }
+            ]
+        }, 
+        "2": {
+            "variance": 5.7389, 
+            "vars": [
+                {
+                    "v_variance": 30.608, 
+                    "name": "AA-R-002"
+                }, 
+                {
+                    "v_variance": 24.4183, 
+                    "name": "AA-R-007"
+                }, 
+                {
+                    "v_variance": 8.3014, 
+                    "name": "AA-R-008"
+                }, 
+                {
+                    "v_variance": 0.439, 
+                    "name": "AA-C-006"
+                }, 
+                {
+                    "v_variance": 0.0504, 
+                    "name": "AA-C-004"
+                }, 
+                {
+                    "v_variance": -0.1621, 
+                    "name": "AA-C-008"
+                }, 
+                {
+                    "v_variance": -0.2102, 
+                    "name": "AA-C-002"
+                }, 
+                {
+                    "v_variance": -0.3298, 
+                    "name": "AA-C-007"
+                }, 
+                {
+                    "v_variance": -0.6546, 
+                    "name": "AA-C-003"
+                }, 
+                {
+                    "v_variance": -0.7057, 
+                    "name": "AA-C-010"
+                }
+            ]
+        }, 
+        "5": {
+            "variance": 5.4087, 
+            "vars": [
+                {
+                    "v_variance": 28.7415, 
+                    "name": "AA-R-003"
+                }, 
+                {
+                    "v_variance": 25.5759, 
+                    "name": "AA-R-007"
+                }, 
+                {
+                    "v_variance": 9.7174, 
+                    "name": "AA-R-008"
+                }, 
+                {
+                    "v_variance": 8.1169, 
+                    "name": "AA-R-009"
+                }, 
+                {
+                    "v_variance": 2.436, 
+                    "name": "AA-R-006"
+                }, 
+                {
+                    "v_variance": 1.3611, 
+                    "name": "AA-C-004"
+                }, 
+                {
+                    "v_variance": 0.2232, 
+                    "name": "AA-C-009"
+                }, 
+                {
+                    "v_variance": 0.076, 
+                    "name": "AA-C-008"
+                }, 
+                {
+                    "v_variance": 0.0016, 
+                    "name": "AA-C-002"
+                }, 
+                {
+                    "v_variance": -0.1562, 
+                    "name": "AA-C-005"
+                }
+            ]
+        }, 
+        "4": {
+            "variance": 5.536, 
+            "vars": [
+                {
+                    "v_variance": 39.6739, 
+                    "name": "AA-R-010"
+                }, 
+                {
+                    "v_variance": 22.9491, 
+                    "name": "AA-R-005"
+                }, 
+                {
+                    "v_variance": 20.7279, 
+                    "name": "AA-R-006"
+                }, 
+                {
+                    "v_variance": 1.4705, 
+                    "name": "AA-C-007"
+                }, 
+                {
+                    "v_variance": 1.1863, 
+                    "name": "AA-C-004"
+                }, 
+                {
+                    "v_variance": 0.734, 
+                    "name": "AA-C-006"
+                }, 
+                {
+                    "v_variance": 0.5821, 
+                    "name": "AA-C-003"
+                }, 
+                {
+                    "v_variance": 0.1753, 
+                    "name": "AA-C-002"
+                }, 
+                {
+                    "v_variance": 0.0591, 
+                    "name": "AA-C-005"
+                }, 
+                {
+                    "v_variance": -0.2787, 
+                    "name": "AA-C-010"
+                }
+            ]
+        }, 
+        "7": {
+            "variance": 4.9595, 
+            "vars": [
+                {
+                    "v_variance": 43.2682, 
+                    "name": "AA-R-009"
+                }, 
+                {
+                    "v_variance": 34.8781, 
+                    "name": "AA-R-005"
+                }, 
+                {
+                    "v_variance": 28.3459, 
+                    "name": "AA-R-007"
+                }, 
+                {
+                    "v_variance": 7.986, 
+                    "name": "AA-R-001"
+                }, 
+                {
+                    "v_variance": 3.5922, 
+                    "name": "AA-R-002"
+                }, 
+                {
+                    "v_variance": 1.6559, 
+                    "name": "AA-C-002"
+                }, 
+                {
+                    "v_variance": 1.2201, 
+                    "name": "AA-C-005"
+                }, 
+                {
+                    "v_variance": 0.6337, 
+                    "name": "AA-C-008"
+                }, 
+                {
+                    "v_variance": 0.5295, 
+                    "name": "AA-C-004"
+                }, 
+                {
+                    "v_variance": 0.3262, 
+                    "name": "AA-C-006"
+                }
+            ]
+        }, 
+        "6": {
+            "variance": 5.138, 
+            "vars": [
+                {
+                    "v_variance": 27.6927, 
+                    "name": "AA-R-001"
+                }, 
+                {
+                    "v_variance": 24.433, 
+                    "name": "AA-R-005"
+                }, 
+                {
+                    "v_variance": 19.0152, 
+                    "name": "AA-R-006"
+                }, 
+                {
+                    "v_variance": 14.0274, 
+                    "name": "AA-R-004"
+                }, 
+                {
+                    "v_variance": 1.8072, 
+                    "name": "AA-C-007"
+                }, 
+                {
+                    "v_variance": 1.2457, 
+                    "name": "AA-C-008"
+                }, 
+                {
+                    "v_variance": 1.1095, 
+                    "name": "AA-R-008"
+                }, 
+                {
+                    "v_variance": 0.9782, 
+                    "name": "AA-C-006"
+                }, 
+                {
+                    "v_variance": 0.5662, 
+                    "name": "AA-C-005"
+                }, 
+                {
+                    "v_variance": 0.42, 
+                    "name": "AA-C-010"
+                }
+            ]
+        }
+    }, 
+    "processed-vars": 20, 
+    "reg": {
+        "1": {
+            "p_value": 0.9162, 
+            "f_value": 0.0111, 
+            "constant": 9.9317, 
+            "vars": [
+                {
+                    "p_value": 0.6123, 
+                    "name": "AA-R-008", 
+                    "coef": -0.0073
+                }, 
+                {
+                    "p_value": 0.1194, 
+                    "name": "AA-R-007", 
+                    "coef": -0.018
+                }, 
+                {
+                    "p_value": 0.4912, 
+                    "name": "AA-R-001", 
+                    "coef": 0.0059
+                }, 
+                {
+                    "p_value": 0.0355, 
+                    "name": "AA-R-006", 
+                    "coef": -0.0033
+                }, 
+                {
+                    "p_value": 0.4988, 
+                    "name": "AA-R-009", 
+                    "coef": -0.0192
+                }, 
+                {
+                    "p_value": 0.492, 
+                    "name": "AA-R-010", 
+                    "coef": -0.0169
+                }, 
+                {
+                    "p_value": 0.6885, 
+                    "name": "AA-R-005", 
+                    "coef": 0.0614
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-009", 
+                    "coef": 0.3374
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-008", 
+                    "coef": 0.3112
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-004", 
+                    "coef": 0.3255
+                }
+            ]
+        }, 
+        "0": {
+            "p_value": 0.0, 
+            "f_value": 13936.498, 
+            "constant": 9.9317, 
+            "vars": [
+                {
+                    "p_value": 0.0355, 
+                    "name": "AA-R-006", 
+                    "coef": -0.1686
+                }, 
+                {
+                    "p_value": 0.6885, 
+                    "name": "AA-R-005", 
+                    "coef": -0.042
+                }, 
+                {
+                    "p_value": 0.4912, 
+                    "name": "AA-R-001", 
+                    "coef": -0.0515
+                }, 
+                {
+                    "p_value": 0.4988, 
+                    "name": "AA-R-009", 
+                    "coef": -0.0499
+                }, 
+                {
+                    "p_value": 0.6123, 
+                    "name": "AA-R-008", 
+                    "coef": -0.0413
+                }, 
+                {
+                    "p_value": 0.5916, 
+                    "name": "AA-R-002", 
+                    "coef": -0.0492
+                }, 
+                {
+                    "p_value": 0.9831, 
+                    "name": "AA-R-004", 
+                    "coef": -0.0046
+                }, 
+                {
+                    "p_value": 0.492, 
+                    "name": "AA-R-010", 
+                    "coef": 0.0647
+                }, 
+                {
+                    "p_value": 0.1194, 
+                    "name": "AA-R-007", 
+                    "coef": 0.1297
+                }, 
+                {
+                    "p_value": 0.0509, 
+                    "name": "AA-R-003", 
+                    "coef": 0.1622
+                }
+            ]
+        }, 
+        "3": {
+            "p_value": 0.8819, 
+            "f_value": 0.0221, 
+            "constant": 9.9317, 
+            "vars": [
+                {
+                    "p_value": 0.6885, 
+                    "name": "AA-R-005", 
+                    "coef": 0.0234
+                }, 
+                {
+                    "p_value": 0.1194, 
+                    "name": "AA-R-007", 
+                    "coef": -0.0166
+                }, 
+                {
+                    "p_value": 0.492, 
+                    "name": "AA-R-010", 
+                    "coef": -0.0259
+                }, 
+                {
+                    "p_value": 0.0509, 
+                    "name": "AA-R-003", 
+                    "coef": 0.0182
+                }, 
+                {
+                    "p_value": 0.9831, 
+                    "name": "AA-R-004", 
+                    "coef": -0.0128
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-002", 
+                    "coef": 0.2795
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-006", 
+                    "coef": 0.2414
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-009", 
+                    "coef": 0.2001
+                }, 
+                {
+                    "p_value": 0.6123, 
+                    "name": "AA-R-008", 
+                    "coef": 0.0249
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-005", 
+                    "coef": 0.2677
+                }
+            ]
+        }, 
+        "2": {
+            "p_value": 0.7118, 
+            "f_value": 0.1365, 
+            "constant": 9.9317, 
+            "vars": [
+                {
+                    "p_value": 0.5916, 
+                    "name": "AA-R-002", 
+                    "coef": -0.0089
+                }, 
+                {
+                    "p_value": 0.1194, 
+                    "name": "AA-R-007", 
+                    "coef": 0.0068
+                }, 
+                {
+                    "p_value": 0.6123, 
+                    "name": "AA-R-008", 
+                    "coef": 0.0108
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-006", 
+                    "coef": 0.1321
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-004", 
+                    "coef": 0.0786
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-008", 
+                    "coef": 0.1094
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-002", 
+                    "coef": 0.1861
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-007", 
+                    "coef": 0.1418
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-003", 
+                    "coef": 0.1401
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-010", 
+                    "coef": 0.2104
+                }
+            ]
+        }, 
+        "5": {
+            "p_value": 0.8548, 
+            "f_value": 0.0335, 
+            "constant": 9.9317, 
+            "vars": [
+                {
+                    "p_value": 0.0509, 
+                    "name": "AA-R-003", 
+                    "coef": 0.0183
+                }, 
+                {
+                    "p_value": 0.1194, 
+                    "name": "AA-R-007", 
+                    "coef": -0.0194
+                }, 
+                {
+                    "p_value": 0.6123, 
+                    "name": "AA-R-008", 
+                    "coef": 0.0181
+                }, 
+                {
+                    "p_value": 0.4988, 
+                    "name": "AA-R-009", 
+                    "coef": -0.0201
+                }, 
+                {
+                    "p_value": 0.0355, 
+                    "name": "AA-R-006", 
+                    "coef": 0.0181
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-004", 
+                    "coef": 0.149
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-009", 
+                    "coef": 0.1746
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-008", 
+                    "coef": 0.1782
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-002", 
+                    "coef": 0.252
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-005", 
+                    "coef": 0.2358
+                }
+            ]
+        }, 
+        "4": {
+            "p_value": 0.9462, 
+            "f_value": 0.0046, 
+            "constant": 9.9317, 
+            "vars": [
+                {
+                    "p_value": 0.492, 
+                    "name": "AA-R-010", 
+                    "coef": -0.0348
+                }, 
+                {
+                    "p_value": 0.6885, 
+                    "name": "AA-R-005", 
+                    "coef": 0.0369
+                }, 
+                {
+                    "p_value": 0.0355, 
+                    "name": "AA-R-006", 
+                    "coef": 0.0206
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-007", 
+                    "coef": 0.1359
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-004", 
+                    "coef": 0.0722
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-006", 
+                    "coef": 0.1304
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-003", 
+                    "coef": 0.1326
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-002", 
+                    "coef": 0.185
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-005", 
+                    "coef": 0.1434
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-010", 
+                    "coef": 0.1993
+                }
+            ]
+        }, 
+        "7": {
+            "p_value": 0.8282, 
+            "f_value": 0.0471, 
+            "constant": 9.9317, 
+            "vars": [
+                {
+                    "p_value": 0.4988, 
+                    "name": "AA-R-009", 
+                    "coef": -0.007
+                }, 
+                {
+                    "p_value": 0.6885, 
+                    "name": "AA-R-005", 
+                    "coef": 0.0311
+                }, 
+                {
+                    "p_value": 0.1194, 
+                    "name": "AA-R-007", 
+                    "coef": -0.0167
+                }, 
+                {
+                    "p_value": 0.4912, 
+                    "name": "AA-R-001", 
+                    "coef": 0.0225
+                }, 
+                {
+                    "p_value": 0.5916, 
+                    "name": "AA-R-002", 
+                    "coef": 0.0066
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-002", 
+                    "coef": 0.2518
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-005", 
+                    "coef": 0.2276
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-008", 
+                    "coef": 0.1735
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-004", 
+                    "coef": 0.1377
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-006", 
+                    "coef": 0.2045
+                }
+            ]
+        }, 
+        "6": {
+            "p_value": 0.6294, 
+            "f_value": 0.233, 
+            "constant": 9.9317, 
+            "vars": [
+                {
+                    "p_value": 0.4912, 
+                    "name": "AA-R-001", 
+                    "coef": 0.0009
+                }, 
+                {
+                    "p_value": 0.6885, 
+                    "name": "AA-R-005", 
+                    "coef": 0.0366
+                }, 
+                {
+                    "p_value": 0.0355, 
+                    "name": "AA-R-006", 
+                    "coef": 0.0112
+                }, 
+                {
+                    "p_value": 0.9831, 
+                    "name": "AA-R-004", 
+                    "coef": -0.0163
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-007", 
+                    "coef": 0.1936
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-008", 
+                    "coef": 0.1607
+                }, 
+                {
+                    "p_value": 0.6123, 
+                    "name": "AA-R-008", 
+                    "coef": 0.0189
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-006", 
+                    "coef": 0.1866
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-005", 
+                    "coef": 0.1998
+                }, 
+                {
+                    "p_value": 0.0, 
+                    "name": "AA-C-010", 
+                    "coef": 0.251
+                }
+            ]
+        }
+    }
+}

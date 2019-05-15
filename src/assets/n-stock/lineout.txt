@@ -1,0 +1,14 @@
+  3653 ./n-CTXS.csv
+  3653 ./n-CRM.csv
+  3653 ./n-ADSK.csv
+  3653 ./n-CMCSA.csv
+  3653 ./n-AKAM.csv
+  3653 ./n-CRUS.csv
+  3653 ./n-COST.csv
+  3653 ./n-AMAT.csv
+  3653 ./n-AMD.csv
+  3653 ./n-ADBE.csv
+  3653 ./n-AAPL.csv
+  3653 ./n-ADI.csv
+  3653 ./n-AMZN.csv
+ 47489 total

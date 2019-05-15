@@ -1,0 +1,49 @@
+
+.labelana2{
+    background: #dafad0;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 208px;
+}
+
+
+.divLineAnalysis {
+    position: relative;
+    top: 27px;
+    background: black;
+}
+
+
+.manageBSelectDs3{
+    top: 53px;
+    width: 175px;
+}
+
+.labelana{
+    background: #eddfbe;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+
+.dropdownAna3{
+    position: absolute;
+    top: 36px;
+    left: 191px;
+}
+
+.analyzebtn{
+    top: 44px;
+    left: 396px;
+}
+
+#echartMain{
+    width: 66vw;
+    height: 404px;
+    left: 95px;
+    top: 112px;
+ }
+
+
+

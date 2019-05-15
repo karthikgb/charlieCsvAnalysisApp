@@ -1,0 +1,47 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="true" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="!(isHandset$ | async)">
+    <mat-toolbar style=" background: #DBDBDB;">
+      <div mat-card-image class="example-header-image1"></div>
+    </mat-toolbar>
+    <mat-nav-list>
+      <button [ngStyle]="{'background': ActiveBtnName =='dashboard' ? 'red' : '#fec1c1' }" class="leftBtn"
+        mat-raised-button [disabled]='isSplash' [routerLink]="['/analysis/dashboard']">{{ 'NAVBAR.BUTTONS.DASHBOARD' |
+        translate }}</button>
+      <button [ngStyle]="{'background': ActiveBtnName =='manage-data' ? 'red' : '#fec1c1' }" class="leftBtn"
+        mat-raised-button [disabled]='isSplash' [routerLink]="['/analysis/manage-data']">{{ 'NAVBAR.BUTTONS.MANAGEDATA'
+        | translate }}</button>
+      <button [ngStyle]="{'background': ActiveBtnName =='analyze-data' ? 'red' : '#fec1c1' }" class="leftBtn"
+        mat-raised-button [disabled]='isSplash' [routerLink]="['/analysis/analyze-data/chart']">{{
+        'NAVBAR.BUTTONS.ANALYZEDATA' | translate }}</button>
+    </mat-nav-list>
+    <mat-nav-list class="sidebarbottom">
+      <button [ngStyle]="{'background': ActiveBtnName =='system-status' ? 'red' : '#fec1c1' }" class="leftBtn"
+        mat-raised-button [routerLink]="['/analysis/system-status']">{{ 'NAVBAR.BUTTONS.SYSTEMSTATUS' | translate }}</button>
+      <button [ngStyle]="{'background': ActiveBtnName =='settings-data' ? 'red' : '#fec1c1' }" class="leftBtn"
+        mat-raised-button [disabled]='isSplash' [routerLink]="['/analysis/settings-data']">{{ 'NAVBAR.BUTTONS.SETTINGS'
+        | translate }}</button>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar style=" background: #DBDBDB;">
+      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <div class="topbarside">
+        <a class="selLang logout"><u>{{ 'NAVBAR.BUTTONS.LOGOUT' | translate }}</u></a>
+        <div>
+          <mat-form-field class="selLang sellabelOption">
+            <mat-select (selectionChange)="changeLangulage($event)" [value]="translate.currentLang">
+              <mat-option *ngFor="let lang of translate.getLangs()" [value]="lang">{{
+                lang }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <h4 class="selLang sellabel">Select Language :- </h4>
+      </div>
+    </mat-toolbar>
+    <!-- Add Content Here -->
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

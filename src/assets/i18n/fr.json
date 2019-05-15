@@ -1,0 +1,16 @@
+{
+  "NAVBAR": {
+    "BUTTONS":{
+      "DASHBOARD":"Dashboard French",
+      "MANAGEDATA":"Manage Data French",
+      "ANALYZEDATA":"Analyze Data French",
+      "SYSTEMSTATUS":"System Status French",
+      "SETTINGS":"Settings French",
+      "LOGOUT":"Logout French"
+    },
+    "SELECT": "Change language French"
+  },
+  "DEMO":{
+    "TRIAL":"fr French"
+  }
+}

@@ -1,0 +1,63 @@
+<div class="main-content">
+  <label class="manageB">Settings</label>
+  <label class="manageBSelectDs labelana">Anomaly Analysis Settings</label>
+  <div class="divLineAnalysis">
+    <mat-divider></mat-divider>
+  </div>
+
+  <div>
+    <label class="manageBSelectDs3 labelana1">Working Directory:</label>
+    <label class="labelana3">/home/user_name/anomaly_results/</label>
+    <button mat-raised-button class="analyzebtn" (click)="editData('Anomaly')">Edit</button>
+    <button mat-raised-button class="analyzebtn1">Save</button>
+  </div>
+
+  <div class="tab">
+    <label class="manageBSelectDs3 labelana4">Anomaly Thresholds:</label>
+    <div class="dispLow">
+      <label class="lowlabel keylabell">Low:</label>
+      <label class="lowval valulab">30%</label>
+      <label class="heightlabel keylabell">High:</label>
+      <label class="heighval valulab">100%</label>
+    </div>
+    <button mat-raised-button class="analyzebtn" (click)="editData('Anomaly')">Edit</button>
+    <button mat-raised-button class="analyzebtn1">Save</button>
+  </div>
+
+
+  <label class="manageBSelectDs2 labelana2">Cause Analysis Settings</label>
+  <div class="divLineAnalysis1">
+    <mat-divider></mat-divider>
+  </div>
+  <div class="tab1">
+    <div class="container" *ngFor="let val of dataObject">
+      <label class="settingLabel1">{{val.colname }} </label>
+      <label class="settingLabel2">{{val.colValue }} </label>
+      <button mat-raised-button class="settingBtnn1" (click)="editData('Analysis')">Edit</button>
+      <button mat-raised-button class="settingBtnn2">Save</button>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div *ngIf="editPopup" class="browsepopup">
+  <div *ngIf="PopupName == 'Anomaly'">
+    <h2> Select destination folder for Anomaly data results</h2>
+  </div>
+  <div *ngIf="PopupName == 'Analysis'">
+    <h2> Select destination folder for Cause Analysis</h2>
+  </div>
+
+
+  <div class="containerInputbox">
+    <mat-form-field class="example-full-width">
+      <input matInput value="http://localhost:4203/analysis/manage-data">
+    </mat-form-field>
+  </div>
+
+
+  <button class="addBtnset" mat-stroked-button (click)="fileUpload.click()">Browse</button>
+  <button class="addBtnset" mat-stroked-button (click)="editData('')">ok</button>
+</div>

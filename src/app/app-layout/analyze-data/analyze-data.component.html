@@ -1,0 +1,27 @@
+<div class="main-content">
+  <label class="manageB">Analyze Data</label>
+  <label class=" manageBSelectAnal labelana">Select Dataset:</label>
+  <div class="dropdownAna">
+    <mat-form-field>
+      <mat-select [(value)]="fileOption">
+        <mat-option *ngFor="let data of datasetArray" value="{{data.name}}">{{data.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <label class="  manageBSelectDs labelana">Select Analyisis:</label>
+  <div class="dropdownAna1">
+    <mat-form-field>
+      <mat-select [(value)]="AnalyisisOption"  (selectionChange)=changeSelectAnalysis($event)>
+        <mat-option value="chart">chart</mat-option>
+        <mat-option value="anomaly">Anomaly</mat-option>
+        <mat-option value="cause">Cause</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div class="subRoute">
+      <router-outlet></router-outlet>
+  </div>
+</div>
+
+ 

@@ -1,0 +1,104 @@
+.main-content {
+    height: 91%;
+    width: 100%;
+}
+
+label.manageB {
+    background: #e9c50b;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    margin-top: 1vw;
+    position: absolute;
+    width: 136px;
+}
+
+.tableHeaderTag{
+    background: #c8efff;
+    font-size: 19px;
+    color: black;
+
+}
+
+.mat-sort-header-arrow {
+    color: black;
+
+}
+
+.addBtn{
+    margin-top:  6vw;
+    left: 5vw;
+}
+
+.browsepopup {
+    position: absolute;
+    top: 18vw;
+    left: 25vw;
+    background: #d5d5d5;
+    width: 393px;
+    height: 234px;
+    padding: 1px 13px 1px 25px;
+}
+
+.backgroundDim {
+    position: absolute;
+    top: 64px;
+    z-index: 101;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: .48;
+}
+
+
+.containerInputbox {
+    position: absolute;
+}
+
+
+.addBtnset{
+    top: 9px;
+    left: 202px;
+    margin-left: 9px;
+}
+
+
+table {
+    width: 100%;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+
+  .tabcomtainer{
+    width: 100%;
+    overflow: auto;
+    max-height: 81%;
+  }
+
+  .delbtn{
+    width: 139px;
+  }
+
+  .setdefbtn{
+    width: 139px;
+  }
+
+  .setfailpopup{
+    position: absolute;
+    top: 23vw;
+    left: 25vw;
+    background: #d5d5d5;
+    width: 433px;
+    height: 100px;
+    padding: 14px 13px 1px 25px;
+    z-index: 102;
+  }
+
+  
+
+  .addBtnset1{
+    top: 9px;
+    margin-left: 22px;
+}

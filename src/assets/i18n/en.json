@@ -1,0 +1,16 @@
+{
+  "NAVBAR": {
+    "BUTTONS":{
+      "DASHBOARD":"Dashboard",
+      "MANAGEDATA":"Manage Data",
+      "ANALYZEDATA":"Analyze Data",
+      "SYSTEMSTATUS":"System Status",
+      "SETTINGS":"Settings",
+      "LOGOUT":"Logout"
+    },
+    "SELECT": "Change language"
+  },
+  "DEMO":{
+    "TRIAL":"kgb"
+  }
+}

@@ -1,0 +1,25 @@
+.main-content {
+    height: 82%;
+    width: 100%;
+}
+
+label.dashB {
+    background: #e9c50b;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    margin-top: 1vw;
+    position: absolute;
+}
+
+#echartMain{
+   width: 71vw; 
+   height:242px;     
+   left: 94px;
+}
+
+#echartMain2{
+    width: 63vw;
+    height: 444px;
+    left: 149px;
+    position: relative;
+}

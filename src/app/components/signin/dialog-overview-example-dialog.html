@@ -1,0 +1,35 @@
+<div *ngIf="data.formType==='ForgotPwd'">
+    <h1 class="overhead">FORGOT YOUR PASSWORD ?</h1>
+    <span class="headTitle">Please enter the e-mail address used to register.We will send your new password to that
+        address.</span>
+    <div mat-dialog-content>
+        <p>Type your email address :</p>
+        <mat-form-field class="example-full-width">
+            <input matInput placeholder="E-mail" value="">
+        </mat-form-field>
+        <div class="retrivwpwd">
+            <button mat-stroked-button (click)="onNoClick()">RETRIVE PASSWORD</button>
+        </div>
+    </div>
+</div>
+
+
+<div *ngIf="data.formType==='SignUp'">
+        <h1 class="overhead">Reset Your Password ?</h1>
+        <span class="headTitle2">Enter a new password for your account</span>
+        <div mat-dialog-content>
+            <mat-form-field class="example-full-width">
+                <input matInput placeholder="PASSWORD" value="">
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                    <input matInput placeholder="CONFIRM PASSWORD" value="">
+                </mat-form-field>
+            <div class="retrivwpwd2">
+                <button mat-stroked-button (click)="onNoClick()">Reset Password</button>
+            </div>
+        </div>
+    </div>
+
+<!-- Copyright 2018 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

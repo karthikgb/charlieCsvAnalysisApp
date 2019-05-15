@@ -1,0 +1,59 @@
+.main-content {
+    height: 82%;
+    width: 98%;
+    overflow: auto;
+    padding-left: 20px;
+    background-color: #fff;
+}
+
+label.manageB {
+    background: #e9c50b;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    margin-top: 14px;
+    position: absolute;
+    width: 136px;
+}
+
+
+
+label.manageBSelectAnal {
+    margin-top: 60px;
+}
+
+
+label.manageBSelectDs {
+    margin-top: 60px;
+    margin-left: 349px;
+}
+
+
+
+.dropdownAna {
+    position: absolute;
+    top: 106px;
+    left: 143px;
+}
+
+.dropdownAna1 {
+    position: absolute;
+    top: 106px;
+    left: 519px;
+
+}
+
+
+
+.subRoute {
+    position: absolute;
+    top: 166px;
+    height: 74%;
+    width: 98%;
+}
+
+.labelana{
+    background: #eddfbe;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    border-radius: 25px;
+}

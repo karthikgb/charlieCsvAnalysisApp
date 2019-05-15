@@ -1,0 +1,13 @@
+.main-content {
+    height: 82%;
+    width: 100%;
+}
+
+label.manageB {
+    background: #e9c50b;
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
+    margin-top: 1vw;
+    position: absolute;
+    width: 136px;
+}

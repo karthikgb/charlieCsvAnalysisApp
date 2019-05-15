@@ -1,0 +1,53 @@
+.example-card {
+    max-width: 400px;
+    left: 35vw;
+    top: 14vw;
+    position: absolute;
+  }
+  
+  .example-header-image {
+    background-image: url('../../../assets/logo.svg');
+    background-size: cover;
+    height: 52px;
+    width: 202px;
+    margin-left: 72px;
+  }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .forgotPwd{
+    float: right;
+    margin-top: 3px;
+    color: #5a7ac4;
+    cursor: pointer;
+    
+  }
+
+  .forgotPwdlabel{
+    float: right;
+    margin-right: 7px;
+    color: #989899;
+  }
+
+  .forgotsignUp {
+    margin-top: 39px;
+    margin-left: 68px;
+}
+
+.forgotssignUp {
+    margin-left: 24px;
+    color: #5a7ac4;
+    cursor: pointer;
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0 3px 16px 3px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}

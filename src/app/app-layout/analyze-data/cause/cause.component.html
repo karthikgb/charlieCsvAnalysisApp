@@ -1,0 +1,72 @@
+<label class="manageBSelectDs2 labelana2">Cause Analysis:</label>
+
+<div class="divLineAnalysis">
+    <mat-divider></mat-divider>
+</div>
+<div>
+    <label class="manageBSelectDs3 labelana">Default Failure Source :</label>
+    <label class="manageBSelectDs1 labelana1">{{failSrcFile}}</label>
+    <button mat-raised-button class="analyzebtn" (click)="callRun()">Run</button>
+</div>
+
+
+<div *ngIf="toggleSummary">
+    <div *ngIf="causeAnalysisData">
+        <label class="causerunLabel">Summary</label>
+        <div class="causerundivLine">
+            <mat-divider></mat-divider>
+        </div>
+        <div class="summaryContainer">
+            <label class="Anomalykey keyStyle">Anomaly Source</label>
+            <label class="AnomalyVal ">{{causeAnalysisData['dependent-var']}}</label>
+            <label class="Processedkey keyStyle">Processed Var</label>
+            <label class="Processedval ">{{causeAnalysisData['processed-vars']}}</label>
+            <div class="ContainerAccordian">
+                <mat-accordion [multi]=true>
+                    <mat-expansion-panel #expPanel  *ngFor="let key of objectKeys(causeAnalysisData.pca)" class="mat-elevation-z0" hideToggle>
+                        <mat-expansion-panel-header class="panelHaderAcc">
+                            <mat-panel-title>
+                                <mat-icon class="listCollapsIcon">{{expPanel.expanded ? 'arrow_drop_down':'arrow_right'}}
+                                </mat-icon> 
+                                <label class=" keyStyle"> Cause Factor {{key}} ("CF {{key}} ") </label>
+                            </mat-panel-title>
+                            <mat-panel-description>
+                                <label class=" valueStyle"> Anomaly Explained : {{causeAnalysisData.pca[key].variance | number:'2.1-2'}} % </label>
+                            </mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <div class="panelContainer">
+                            <div class="rowStyles" *ngFor="let data of causeAnalysisData.pca[key].vars; let i = index">
+                                <label class="Leadingkey keyStyle">Leading indicator{{i + 1}}</label>
+                                <label class="Leadingdata keyStyle">{{data.name}}.csv</label>
+                                <label class="Leadingcf valueStyle">CF1 explained : {{data.v_variance | number:'2.1-2'}}%</label>
+                            </div>
+                            <mat-expansion-panel #expPanel1 class="mat-elevation-z0" hideToggle>
+                                <mat-expansion-panel-header class="panelHaderAcc">
+                                    <mat-panel-title>
+                                        <mat-icon class="listCollapsIcon">{{expPanel1.expanded ? 'arrow_drop_down':'arrow_right'}}
+                                        </mat-icon> 
+                                        <label class=" keyStyle"> Cause Factor {{key}} Prediction </label>
+                                    </mat-panel-title>
+                                </mat-expansion-panel-header>
+                                <div class="panelContainer2">
+                                    <label class="constant valueStyle2">Const {{causeAnalysisData.reg[key].constant}}</label>
+                                    <label class="f_value valueStyle2">F-Val {{causeAnalysisData.reg[key].f_value}}</label>
+                                    <label class="p_value valueStyle2">P-Val {{causeAnalysisData.reg[key].p_value}}</label>
+                                    <div class="regdataa">
+                                        <div class="rowStyles" *ngFor="let arrdata of causeAnalysisData.reg[key].vars; let i = index">
+                                            <label class="Leadingkey keyStyle">{{arrdata.name}}.csv</label>
+                                            <label class="Leadingdata keyStyle">Coeff:{{arrdata.coef}}</label>
+                                            <label class="Leadingcf valueStyle">P-Val : {{arrdata.p_value}}</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </mat-expansion-panel>
+                        </div>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+
+
+        </div>
+    </div>
+</div>

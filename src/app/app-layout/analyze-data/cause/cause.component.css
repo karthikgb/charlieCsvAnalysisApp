@@ -1,0 +1,172 @@
+
+.labelana2{
+    background: #dafad0;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 208px;
+}
+
+
+.divLineAnalysis {
+    position: relative;
+    top: 27px;
+    background: black;
+}
+
+
+.manageBSelectDs3{
+    top: 53px;
+    width: 175px;
+}
+
+.labelana{
+    background: #eddfbe;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    border-radius: 25px;
+}
+
+
+.summaryContainer {
+    height: 343px;
+    max-height: 343px;
+    position: absolute;
+    overflow: auto;
+    width: 99%;
+    top: 142px;
+}
+
+.manageBSelectDs1{
+    top: 53px;
+    left: 196px;
+    width: 175px;
+}
+
+.labelana1{
+    background: #eddfbe;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    border-radius: 6px; 
+}
+
+
+.dropdownAna3{
+    position: absolute;
+    top: 36px;
+    left: 191px;
+}
+
+.analyzebtn{
+    top: 44px;
+    left: 396px;
+}
+
+#echartMain{
+    width: 66vw;
+    height: 404px;
+    left: 95px;
+    top: 112px;
+ }
+
+ label.causerunLabel {
+    background: #d8dfd6;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    width: 208px;
+    top: 106px;
+}
+
+.causerundivLine {
+    position: relative;
+    top: 98px;
+    background: black;
+}
+
+
+
+
+
+.keyStyle {
+    background: #d8dfd6;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+}
+
+
+.valueStyle {
+    background: #ffe4e4;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    
+}
+
+.valueStyle2 {
+    background: #ffd698;
+    padding: 5px 5px 5px 5px;
+    border-radius: 6px;
+    
+}
+
+.regdataa {
+    margin-top: 15px;
+}
+
+label.constant {
+    margin-left: 25px;
+}
+
+label.f_value {
+    margin-left: 21px;
+}
+
+label.p_value {
+    margin-left: 19px;
+}
+
+label.Anomalykey {
+    width: 147px;
+    position: absolute;
+}
+
+label.AnomalyVal {
+    left: 169px;
+    position: absolute;
+}
+
+label.Processedkey {
+    position: absolute;
+    top: 43px;
+    width: 147px;
+}
+
+label.Processedval {
+    position: absolute;
+    left: 169px;
+    top: 43px;
+}
+
+.ContainerAccordian {
+    top: 80px;
+    position: absolute;
+}
+
+:host /deep/ .mat-drawer-container {
+    background-color: #fafafa00;
+}
+
+.rowStyles {
+    margin-bottom: 19px;
+    font-size: 18.5px;
+}
+
+label.Leadingkey {
+    margin-left: 24px;
+}
+
+label.Leadingdata {
+    margin-left: 12px;
+}
+
+label.Leadingcf {
+    margin-left: 10px;
+}

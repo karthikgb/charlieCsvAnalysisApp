@@ -1,0 +1,21 @@
+.main-content {
+    height: 82%;
+    width: 100%;
+}
+
+
+.splachcontainer {
+    position: absolute;
+    top: 26%;
+    left: 30%;
+    height: 292px;
+    width: 486px;
+    background: #e5e5e5;
+    padding: 1px 21px 1px 22px;
+}
+
+
+.splahbtn{
+    right: 24px;
+    float: right;
+}

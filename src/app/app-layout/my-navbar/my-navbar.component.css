@@ -1,0 +1,55 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  background: #DBDBDB;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+}
+
+
+.selLang {
+  float: right;
+  margin-right: 15px;
+}
+
+.topbarside{
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+.selLang.sellabelOption {
+  width: 63px;
+}
+a.selLang.logout {
+  margin-top: 26px;
+}
+
+h4.selLang.sellabel {
+  margin-top: 25px;
+  font-size: 13px;
+}
+.example-header-image1 {
+  background-image: url('../../../assets/logo.svg');
+    background-size: cover;
+    height: 43px;
+    width: 167px;
+
+}
+
+.sidebarbottom {
+  bottom: 0;
+  position: absolute;
+}
+
+button.leftBtn {
+  width: 91%;
+  left: 9px;
+  margin-bottom: 6px;
+}
